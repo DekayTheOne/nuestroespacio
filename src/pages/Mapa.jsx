@@ -91,7 +91,7 @@ export default function Mapa() {
 
   return (
     <div>
-      <EncabezadoPestana icono="📍" titulo="Mapa" subtitulo="Haz click en cualquier lugar del mapa para agregar un pin." />
+      <EncabezadoPestana icono="📍" titulo="Mapa" subtitulo="Dale a cualquier parte del mapita y agrega un pin para agendar el lugarcito." />
 
       {/* Leyenda */}
       <div className="flex flex-wrap gap-4 mb-4 p-4 rounded-2xl" style={{ background: 'var(--color-bg-elevated)' }}>

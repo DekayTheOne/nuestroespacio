@@ -79,7 +79,7 @@ export default function Calendario() {
         icono="🗓️"
         titulo="Calendario"
         subtitulo={
-          nombrePareja ? `Compartido entre tú y ${nombrePareja}.` : 'Agenden juntos sus fechas importantes.'
+          nombrePareja ? `Compartido entre tú y ${nombrePareja}.` : 'Agendemos juntos nuestras fechas importantes.'
         }
       />
 

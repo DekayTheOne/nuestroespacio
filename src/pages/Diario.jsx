@@ -96,7 +96,7 @@ export default function Diario() {
 
   return (
     <div>
-      <EncabezadoPestana icono="📔" titulo="Diario" subtitulo="Un recuerdo por cada día que viven juntos." />
+      <EncabezadoPestana icono="📔" titulo="Diario" subtitulo="Un recuerdo por cada día que vivimos juntos." />
 
       <div className="grid md:grid-cols-[360px_1fr] gap-6">
         <MiniCalendario

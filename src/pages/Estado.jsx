@@ -6,11 +6,8 @@ import { useAuth } from '../context/AuthContext'
 
 // Frases semilla, por si el banco de la pareja aún está vacío
 const FRASES_BASE = [
-  'El amor no es encontrar a alguien perfecto, es aprender a ver a alguien imperfecto de forma perfecta.',
-  'Las relaciones fuertes no son las que nunca discuten, sino las que nunca se rinden.',
-  'Hoy elijo entenderte antes que tener la razón.',
-  'Cada día es una nueva oportunidad para amarnos mejor que ayer.',
-  'No estamos peleando el uno contra el otro, estamos peleando juntos contra el problema.',
+  'Porque serás mi eterna eleccion ahora y hasta que deje de respirar.',
+  'Mis ojos se iluminan cada vez que veo a mi reina y solecito llamada Melanie:3',
 ]
 
 export default function Estado() {
@@ -60,7 +57,7 @@ export default function Estado() {
 
   return (
     <div className="flex flex-col items-center">
-      <EncabezadoPestana icono="💗" titulo="Estado" subtitulo="Un empujón cuando lo necesiten." />
+      <EncabezadoPestana icono="" titulo="Estado" subtitulo="Un empujoncito" />
 
       <div className="flex flex-col items-center justify-center py-10 w-full max-w-xl">
         <motion.button
@@ -111,7 +108,7 @@ export default function Estado() {
             <textarea
               value={nuevaFrase}
               onChange={(e) => setNuevaFrase(e.target.value)}
-              placeholder="Escribe una frase de apoyo para agregar al banco..."
+              placeholder="Escribe una frase de apoyo/carinio para agregar al banco..."
               rows={2}
               className="w-72 rounded-xl px-3 py-2 border text-sm outline-none resize-none"
               style={{ borderColor: 'var(--color-primary-light)' }}

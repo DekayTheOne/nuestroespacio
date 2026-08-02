@@ -22,7 +22,7 @@ export default function Sidebar() {
     <div className="flex flex-col h-full py-6 px-4">
       <div className="flex items-center gap-2 px-2 mb-8">
         <span className="text-2xl" style={{ color: 'var(--color-primary)' }}>
-          ♥
+          
         </span>
         <span className="font-display text-xl">Nuestro Espacio</span>
       </div>
