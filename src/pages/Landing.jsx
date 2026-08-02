@@ -59,12 +59,10 @@ export default function Landing() {
             <span className="font-display text-xl">Nuestro Espacio</span>
           </div>
           <h1 className="font-display text-4xl md:text-5xl leading-tight mb-5">
-            Un lugar solo<br />para ustedes dos.
+            Un lugar solo<br />para nosotros amorcito, te amo mi Melicita.
           </h1>
           <p className="text-ink-soft text-lg max-w-md leading-relaxed">
-            Calendario compartido, diario de recuerdos, un mapa de lugares por
-            visitar y un espacio para cuidar la relación, todo sincronizado
-            entre tú y tu pareja en tiempo real.
+            Un lugarcito en el que ambos podremos guardar nustros recuerdos juntos y tambien demostrar nuestro amorcito dia tras dia:3
           </p>
         </motion.div>
 
