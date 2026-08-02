@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #ff7a59;
+  --color-primary-light: #ffe4d6;
+  --color-accent: #ffc978;
+  --color-bg: #fff8f3;
+  --color-bg-elevated: #ffffff;
+  --color-ink: #3d2c3a;
+  --color-ink-soft: #8a7580;
+}
+
+[data-tema='rosa'] {
+  --color-primary: #ff6b9d;
+  --color-primary-light: #ffe0eb;
+  --color-accent: #ffafc5;
+  --color-bg: #fff6f8;
+  --color-bg-elevated: #ffffff;
+  --color-ink: #3d2c3a;
+  --color-ink-soft: #937d8a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: 'Fraunces', serif;
+}
+
+/* Borde ondulado — firma visual de la sidebar */
+.borde-ondulado {
+  position: relative;
+}
+.borde-ondulado::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -1px;
+  width: 10px;
+  height: 100%;
+  background-image: radial-gradient(circle at 0 8px, transparent 8px, var(--color-bg) 8.5px);
+  background-size: 16px 16px;
+  background-repeat: repeat-y;
+}
+
+/* Scrollbar sutil */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-light);
+  border-radius: 999px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
